@@ -28,43 +28,43 @@
 # the delivery of this work
 ################################################################################
 header:
-  productName: REPLACEME
-  productionDescription: REPLACEME
-  whoIsItFor: REPLACEME
+  productName: CloverConnect
+  productionDescription: It's a long story
+  whoIsItFor: ISV Partners and Developers
   image: 
     link: "/assets/images/Fiserv_Logo.jpg"
     altText: REPLACEME™
 featuredFeatures:
-  - title: REPLACE ME
-    description:  REPLACE ME
-    tags: ["REPLACEME", "REPLACEME", "REPLACEME"]
+  - title: Take payments from terminal
+    description:  Provide more detail here...
+    tags: ["US", "Canada", "EMEA"]
     bullets: ["REPLACEME", "REPLACEME" ]  
     relatedDocs:
       - relatedDoc: 
-        title: REPLACEME
-        description: REPLACEME
+        title: PreAuth
+        description: preauthorize a sale like a bar tab...
         link: ./docs/REPLACE-ME1.md
       - relatedDoc: 
-        title: REPLACEME
-        description: REPLACEME
+        title: Sale
+        description: take a sale
         link: ./docs/REPLACE-ME2.md
       - relatedDoc: 
-        title: REPLACEME
-        description: REPLACEME
+        title: other
+        description: add more items here...
         link: ./docs/REPLACE-ME3.md
     relatedAPIs:
       - relatedAPI: 
-        title: REPLACEME
-        description: REPLACEME
-        type: "patch"        
+        title: Payments
+        description: taking payments from a Clover device
+        type: "get"        
         path: "/v1/REPLACEME1"
       - relatedAPI: 
-        title: REPLACEME
-        description: REPLACEME
+        title: Ecomm
+        description: taking payments from an online website
         type: "post"        
         path: "/v1/REPLACEME2"
       - relatedAPI: 
-        title: REPLACEME
-        description: REPLACEME
+        title: Random
+        description: add more apis
         type: "get"        
         path: "/v1/REPLACEME3"
